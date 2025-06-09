@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Livros por Categoria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      background: #ecf0f1;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .titulo {
+      font-weight: bold;
+    }
+    .autor, .ano {
+      font-style: italic;
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lista de Livros por Categoria</h1>
+
+  <section>
+    <h2>Ficção</h2>
+    <ul>
+      <li><span class="titulo">1984</span> - <span class="autor">George Orwell</span> (<span class="ano">1949</span>)</li>
+      <li><span class="titulo">O Senhor dos Anéis</span> - <span class="autor">J.R.R. Tolkien</span> (<span class="ano">1954</span>)</li>
+      <li><span class="titulo">Fahrenheit 451</span> - <span class="autor">Ray Bradbury</span> (<span class="ano">1953</span>)</li>
+      <li><span class="titulo">Dom Casmurro</span> - <span class="autor">Machado de Assis</span> (<span class="ano">1899</span>)</li>
+      <li><span class="titulo">O Hobbit</span> - <span class="autor">J.R.R. Tolkien</span> (<span class="ano">1937</span>)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Não Ficção</h2>
+    <ul>
+      <li><span class="titulo">Sapiens</span> - <span class="autor">Yuval Noah Harari</span> (<span class="ano">2011</span>)</li>
+      <li><span class="titulo">Educated</span> - <span class="autor">Tara Westover</span> (<span class="ano">2018</span>)</li>
+      <li><span class="titulo">O Poder do Hábito</span> - <span class="autor">Charles Duhigg</span> (<span class="ano">2012</span>)</li>
+      <li><span class="titulo">A Arte da Guerra</span> - <span class="autor">Sun Tzu</span> (<span class="ano">Século V a.C.</span>)</li>
+      <li><span class="titulo">Blink</span> - <span class="autor">Malcolm Gladwell</span> (<span class="ano">2005</span>)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Fantasia</h2>
+    <ul>
+      <li><span class="titulo">Harry Potter e a Pedra Filosofal</span> - <span class="autor">J.K. Rowling</span> (<span class="ano">1997</span>)</li>
+      <li><span class="titulo">As Crônicas de Nárnia</span> - <span class="autor">C.S. Lewis</span> (<span class="ano">1950</span>)</li>
+      <li><span class="titulo">O Nome do Vento</span> - <span class="autor">Patrick Rothfuss</span> (<span class="ano">2007</span>)</li>
+      <li><span class="titulo">Mistborn: O Império Final</span> - <span class="autor">Brandon Sanderson</span> (<span class="ano">2006</span>)</li>
+      <li><span class="titulo">Eragon</span> - <span class="autor">Christopher Paolini</span> (<span class="ano">2002</span>)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Romance</h2>
+    <ul>
+      <li><span class="titulo">Orgulho e Preconceito</span> - <span class="autor">Jane Austen</span> (<span class="ano">1813</span>)</li>
+      <li><span class="titulo">A Culpa é das Estrelas</span> - <span class="autor">John Green</span> (<span class="ano">2012</span>)</li>
+      <li><span class="titulo">Como Eu Era Antes de Você</span> - <span class="autor">Jojo Moyes</span> (<span class="ano">2012</span>)</li>
+      <li><span class="titulo">O Morro dos Ventos Uivantes</span> - <span class="autor">Emily Brontë</span> (<span class="ano">1847</span>)</li>
+      <li><span class="titulo">Anna Karenina</span> - <span class="autor">Liev Tolstói</span> (<span class="ano">1877</span>)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Ciência</h2>
+    <ul>
+      <li><span class="titulo">Uma Breve História do Tempo</span> - <span class="autor">Stephen Hawking</span> (<span class="ano">1988</span>)</li>
+      <li><span class="titulo">O Gene: Uma História Íntima</span> - <span class="autor">Siddhartha Mukherjee</span> (<span class="ano">2016</span>)</li>
+      <li><span class="titulo">Cosmos</span> - <span class="autor">Carl Sagan</span> (<span class="ano">1980</span>)</li>
+      <li><span class="titulo">O Universo Numa Casca de Noz</span> - <span class="autor">Stephen Hawking</span> (<span class="ano">2001</span>)</li>
+      <li><span class="titulo">A Dança do Universo</span> - <span class="autor">Claudia de Almeida</span> (<span class="ano">2013</span>)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>História</h2>
+    <ul>
+      <li><span class="titulo">Guns, Germs, and Steel</span> - <span class="autor">Jared Diamond</span> (<span class="ano">1997</span>)</li>
+      <li><span class="titulo">A Segunda Guerra Mundial</span> - <span class="autor">Antony Beevor</span> (<span class="ano">2012</span>)</li>
+      <li><span class="titulo">O Diário de Anne Frank</span> - <span class="autor">Anne Frank</span> (<span class="ano">1947</span>)</li>
+      <li><span class="titulo">A História do Brasil</span> - <span class="autor">Boris Fausto</span> (<span class="ano">1995</span>)</li>
+      <li><span class="titulo">1776</span> - <span class="autor">David McCullough</span> (<span class="ano">2005</span>)</li>
+    </ul>
+  </section>
+
+</body>
+</html>
